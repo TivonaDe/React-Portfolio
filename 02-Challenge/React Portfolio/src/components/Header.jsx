@@ -3,7 +3,7 @@ import Navigation from './Navigation';
 const Header = () => {
   return (
     <header>
-      <h1>Developer Name</h1>
+      <h1>De vona Canada</h1>
       <Navigation />
     </header>
   );
