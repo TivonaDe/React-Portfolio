@@ -12,10 +12,10 @@ const AboutMe = () => {
           className="about-me-photo" 
         />
         <p>
-          Hi, I'm [Your Name], a passionate web developer with experience in building modern, responsive websites and applications. I specialize in [mention key skills, e.g., React, JavaScript, CSS]. 
+          Hi, I'm De vona, a passionate web developer with experience in building modern, responsive websites and applications. I specialize in HTML, React, JavaScript, CSS. 
         </p>
         <p>
-          I love solving problems and creating efficient, scalable solutions. My journey in web development started with [brief background]. When I'm not coding, you can find me [mention hobbies or interests].
+          I love solving problems and creating efficient, scalable solutions. My journey in web development started with my interest in working with AI applications. When I'm not coding, you can find me watching movies, gardening, or playing video games.
         </p>
         <p>
           Feel free to explore my portfolio and reach out if you'd like to collaborate!
