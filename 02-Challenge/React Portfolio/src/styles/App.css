@@ -1,0 +1,159 @@
+/* General Reset */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, a, section {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  justify-content: center;
+}
+a {
+  text-decoration: bold;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 1rem;
+}
+
+/* App Container */
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Section */
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 2px solid #ddd;
+}
+header nav {
+  flex: 1;
+  text-align: right;
+  justify-content: space-evenly;
+}
+header h1 {
+  font-size: 2rem;
+  color: #007bff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #007bff;
+}
+
+/* Main Content Section */
+section {
+  margin-top: 2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Footer Section */
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem 0;
+  border-top: 2px solid #ddd;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+footer a {
+  color: #007bff;
+  text-decoration: none;
+  text-justify: space-between;
+  justify-content: space-between;
+  justify-items: space-evenly;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Utility Classes */
+.text-center {
+  text-align: center;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+/* Button Styles */
+button {
+  padding: 0.7rem 1.2rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header {
+    flex-direction: row;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  nav li {
+    margin: 0.5rem 0;
+  }
+
+  .App {
+    padding: 1rem;
+  }
+}
+
+

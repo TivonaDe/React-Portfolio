@@ -1,5 +1,7 @@
 import React from 'react';
-import './AboutMe.css'; // Optional: Import a CSS file for styling
+//import './styles/AboutMe.css'; // Optional: Import a CSS file for styling
+//import './styles/AboutMe.css'; // Optional: Import a CSS file for styling
+
 
 const AboutMe = () => {
   return (
@@ -7,8 +9,8 @@ const AboutMe = () => {
       <h2>About Me</h2>
       <div className="about-me-content">
         <img 
-          src="your-photo.jpg" 
-          alt="Your Name" 
+          src="./src/assets/badge picture.jpg" 
+          alt="Devona" 
           className="about-me-photo" 
         />
         <p>

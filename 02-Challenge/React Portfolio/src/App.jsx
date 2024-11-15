@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import './styles/Resume.css'
 import './styles/App.css'
+import './styles/aboutme.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -26,6 +26,7 @@ function App() {
     </Router>
   );
 }
+
 
 
 export default App

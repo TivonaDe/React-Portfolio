@@ -1,5 +1,6 @@
 import React from 'react';
-import './styles/Resume.css'; // Optional: Import a CSS file for styling
+
+
 
 const Resume = () => {
   return (
